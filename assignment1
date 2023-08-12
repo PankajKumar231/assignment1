@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+\geometry{margin=1in}
+
+\newcommand{\pointA}{(1, -1)}
+\newcommand{\pointB}{(-4, 6)}
+\newcommand{\pointC}{(-3, -5)}
+\newcommand{\pointO}{\left(-\frac{53}{12}, \frac{5}{12}\right)}
+
+\begin{document}
+\title{
+\Huge \ Assignment 1\\
+\Huge\ Probability And Random Processes\\
+\large\author{Pankaj Kumar \\EE22BTECH11040}
+}
+\maketitle
+
+Given:
+\[
+\vec{A}\pointA, \vec{B}\pointB, \vec{C}\pointC, \quad 
+\]
+And we find point O which is point of intersection of perpendicular bisector of AB and AC;\\
+\[\vec{O} = \left(-\frac{53}{12}, \frac{5}{12}\right)\\\]
+
+
+Verify that : $OA = OB = OC$\\
+
+\textbf{Proof:}\\
+
+
+The vectors $A$, $B$, $C$ and $O$ are:
+\[
+\begin{aligned}
+\vec{A} = (1, -1), \\
+\vec{B} = (-4, 6), \\
+\vec{C} = (-3, -5)\\
+\vec{O} = \left(-\frac{53}{12}, \frac{5}{12}\right)
+\end{aligned}
+\]
+
+Using the distance formula $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$, we can calculate the distances:\\
+
+\[
+\begin{aligned}
+OA &= \|\vec{OA}\| = \sqrt{(1 - (-53/12))^2 + (-1 - 5/12)^2}  =  5.59, \\
+OB &= \|\vec{OB}\| = \sqrt{(-4 - (-53/12))^2 + (6 - 5/12)^2}  =  5.59 \\
+OC &= \|\vec{OC}\| = \sqrt{(-3 - (-53/12))^2 + (-5 - 5/12)^2}  =  5.59.
+\end{aligned}
+\]
+From above we can see that :\\
+\[OA = OB = OC\]
+\large Hence, proved
+
+\end{document}
